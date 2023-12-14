@@ -1,0 +1,28 @@
+/*ICONOSINFO*/
+
+.iconos {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.filaIconosFlex {
+  @include flex-center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px 0px;
+  overflow: hidden;
+}
+
+.contenedorIconos {
+  @include flex-center;
+  justify-content: space-evenly;
+  flex-flow: column;
+  overflow: hidden;
+  padding: 20px 10px;
+  p {
+    max-width: 800px;
+  }
+}

@@ -1,0 +1,20 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
+/*BANNER*/
+
+.banner {
+    @include flex-center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/polygonal19.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+button {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
+}
